@@ -35,7 +35,7 @@ func ReadElixirCodeFromFile(filePath string) (string, error) {
 }
 func main() {
 	//code := `IO.puts("Hello from Elixir!")`
-	filePath := "hello.exs"
+	filePath := "prime_number_async.exs"
 	// Read the Elixir code from the file
 	code, err := ReadElixirCodeFromFile(filePath)
 	if err != nil {
